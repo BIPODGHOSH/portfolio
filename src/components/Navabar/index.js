@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
+// import HeroSection from "../HeroSection";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className={styles.Nav}>
       <div className={styles.NavContainer}>
-        <Link to="/" className={styles.NavLogo}>
+        <Link href="/" className={styles.NavLogo}>
           <DiCssdeck size="3rem">
             <span>Portfolio</span>
           </DiCssdeck>
@@ -23,21 +24,21 @@ const Navbar = () => {
           ></FaBars>
         </div>
         <ul className={styles.NavItems}>
-          <NavLink className={styles.NavLink} to="#home">
+          <a className={styles.NavLink} href="#home">
             Home
-          </NavLink>
-          <NavLink className={styles.NavLink} to="#skills">
+          </a>
+          <a className={styles.NavLink} href="#skills">
             Skills
-          </NavLink>
-          <NavLink className={styles.NavLink} to="#experience">
+          </a>
+          <a className={styles.NavLink} href="#experience">
             Experience
-          </NavLink>
-          <NavLink className={styles.NavLink} to="#projects">
+          </a>
+          <a className={styles.NavLink} href="#projects">
             Projects
-          </NavLink>
-          <NavLink className={styles.NavLink} to="#education">
+          </a>
+          <a className={styles.NavLink} href="#education">
             Education
-          </NavLink>
+          </a>
         </ul>
         <div className={styles.ButtonContainer}>
           <button className="GitHubButton">Github</button>
@@ -45,23 +46,23 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <div className={`${styles.MobileMenu} ${isOpen ? styles.open : ""}`}>
-          <NavLink className={styles.MobileMenuLink} to="#home">
+          <a className={styles.MobileMenuLink} href="#home">
             Home
-          </NavLink>
-          <NavLink className={styles.MobileMenuLink} to="#skills">
+          </a>
+          <a className={styles.MobileMenuLink} href="#skills">
             Skills
-          </NavLink>
-          <NavLink className={styles.MobileMenuLink} to="#experience">
+          </a>
+          <a className={styles.MobileMenuLink} href="#experience">
             Experience
-          </NavLink>
-          <NavLink className={styles.MobileMenuLink} to="#projects">
+          </a>
+          <a className={styles.MobileMenuLink} href="#projects">
             Projects
-          </NavLink>
-          <NavLink className={styles.MobileMenuLink} to="#education">
+          </a>
+          <a className={styles.MobileMenuLink} href="#education">
             Education
-          </NavLink>
+          </a>
           {/* <div className={styles.MobileSocialContainer}> */}
-          <Link className={styles.MobileSocial} to={Bio.github}>
+          <Link className={styles.MobileSocial} href={Bio.github}>
             Github
           </Link>
           {/* </div> */}
