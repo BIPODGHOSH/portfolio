@@ -83,6 +83,7 @@ const Projects = ({ openModal, setOpenModal }) => {
           {toggle === "all" &&
             projects.map((project) => (
               <ProjectCard
+                key={project.id}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
@@ -92,24 +93,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             .filter((item) => item.category === toggle)
             .map((project) => (
               <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
-
-          {toggle === "front end" &&
-            projects.map((project) => (
-              <ProjectCard
-                project={project}
-                openModal={openModal}
-                setOpenModal={setOpenModal}
-              />
-            ))}
-          {projects
-            .filter((item) => item.category === toggle)
-            .map((project) => (
-              <ProjectCard
+                key={project.id}
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}

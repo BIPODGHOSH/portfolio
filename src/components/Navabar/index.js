@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Navbar.module.css"; // Import the CSS file
+import styles from "./Navbar.module.css";
 import { Link, NavLink } from "react-router-dom";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
@@ -7,7 +7,6 @@ import { Bio } from "../../data/constants";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
   return (
     <div className={styles.Nav}>
       <div className={styles.NavContainer}>
