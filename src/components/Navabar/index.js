@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { DiCssdeck } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
-// import HeroSection from "../HeroSection";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +40,26 @@ const Navbar = () => {
           </a>
         </ul>
         <div className={styles.ButtonContainer}>
-          <button className="GitHubButton">Github</button>
+          <button className={styles.GitHubButton}>
+            <a className={styles.buttonText} href={Bio.github} target="blank">
+              Github
+            </a>
+          </button>
+          <button className={styles.GitHubButton}>
+            <a className={styles.buttonText} href={Bio.linkedin} target="blank">
+              Linkedin
+            </a>
+          </button>
+          <button className={styles.GitHubButton}>
+            <a className={styles.buttonText} href={Bio.litcode} target="blank">
+              Litcode
+            </a>
+          </button>
+          <button className={styles.GitHubButton}>
+            <a className={styles.buttonText} href={Bio.facebook} target="blank">
+              Facebook
+            </a>
+          </button>
         </div>
       </div>
       {isOpen && (
@@ -61,11 +79,10 @@ const Navbar = () => {
           <a className={styles.MobileMenuLink} href="#education">
             Education
           </a>
-          {/* <div className={styles.MobileSocialContainer}> */}
+
           <Link className={styles.MobileSocial} href={Bio.github}>
             Github
           </Link>
-          {/* </div> */}
         </div>
       )}
     </div>

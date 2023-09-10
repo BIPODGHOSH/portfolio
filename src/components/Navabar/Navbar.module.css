@@ -95,8 +95,8 @@
 }
 
 .GitHubButton {
-  background-color: transparent;
-  color: var(--primary);
+  background: hsla(271, 100%, 50%, 1);
+  color: white;
   border: 1.8px solid var(--primary);
   border-radius: 20px;
   cursor: pointer;
@@ -104,18 +104,44 @@
   justify-content: center;
   align-items: center;
   padding: 0 28px;
-  font-size: 1rem;
+  margin-left: 10px;
+  font-size: 0.8rem;
   font-weight: 500;
   height: 70%;
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
 
   &:hover {
-    background-color: var(--primary);
-    color: var(--white);
+    transform: scale(1.05);
+    transition: all 0.4s smooth ease-in-out;
+    box-shadow: 20px 20px 60px #1f2634;
+    filter: brightness(1);
   }
 
   @media screen and (max-width: 640px) {
     font-size: 0.8rem;
   }
+}
+
+.buttonText {
+  color: var(--white);
+  text-decoration: none;
+  /* &:hover {
+  } */
 }
 
 /* MobileMenu*/

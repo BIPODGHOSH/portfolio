@@ -6,6 +6,7 @@ export const Bio = {
   github: "https://github.com/BIPODGHOSH",
   resume: "https://1drv.ms/b/s!AkM3f8oqy30hghiuHxc5BnuK9nf1?e=yXTJms",
   linkedin: "https://www.linkedin.com/in/bipod-ghosh7",
+  litcode: "https://leetcode.com/BipodGhosh/",
   insta: "https://www.instagram.com/imaginarybipod/",
   facebook: "https://www.facebook.com/bipod.ghosh.3?mibextid=ZbWKwL",
 };
