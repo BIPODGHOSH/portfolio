@@ -164,7 +164,7 @@ export const projects = [
     date: "Augest 2023 - September 2023",
     description:
       "Coder Zones is a web application designed to creating a E-Learning app for developer. It provides a user-friendly interface for developer to learn",
-    image: "",
+    image: "https://i.postimg.cc/TPvFMPwD/coder-Zones-Img.png",
     tags: ["React Js", "Firebase", "Node Js", "Redux"],
     category: "web app",
     github: "https://github.com/BIPODGHOSH/E-Learning-App",
@@ -176,19 +176,19 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "Developed a React web application that allows users to search user, chat, and sending photo. Implemented user authentication using Firebase Auth , made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image: "",
+    image: "https://i.postimg.cc/QNFbm3NG/chat-App-Img.png",
     tags: ["React Js", "Firebase"],
     category: "web app",
     github: "https://github.com/BIPODGHOSH/chat-app",
     webapp: "https://chatappbipod.netlify.app/",
-    member: [
-      {
-        name: "Bipod Ghosh",
-        img: "",
-        github: "https://github.com/BIPODGHOSH",
-        linkedin: "https://www.linkedin.com/in/bipod-ghosh7",
-      },
-    ],
+    // member: [
+    //   {
+    //     name: "Bipod Ghosh",
+    //     img: "",
+    //     github: "https://github.com/BIPODGHOSH",
+    //     linkedin: "https://www.linkedin.com/in/bipod-ghosh7",
+    //   },
+    // ],
   },
 
   {
@@ -197,7 +197,7 @@ export const projects = [
     date: "May 2023 - Jun 2023",
     description:
       "in Imdb clone App user can search a movie and user can see movie details also add there favorite list",
-    image: "",
+    image: "https://i.postimg.cc/vTTSLgPp/imdbImg.png",
     tags: ["Html", "Css", "JavaScript", "Localstorage"],
     category: "web app",
     github: "https://github.com/BIPODGHOSH/imdb-clone",
@@ -209,7 +209,7 @@ export const projects = [
     date: "January 2023 - Jun 2023",
     description:
       "Stopwatch a special watch with buttons that start, stop, reset.this app is responsive for all device",
-    image: "",
+    image: "https://i.postimg.cc/gjxN69jp/stop-Watch-Img.png",
     tags: ["Html", "Css", "JavaScript", "Localstorage"],
     category: "web app",
     github: "https://github.com/BIPODGHOSH/StopWatch",
