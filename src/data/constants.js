@@ -125,6 +125,17 @@ export const experiences = [
     docImg: "https://i.postimg.cc/15HxBJTx/Experience-Img.png",
     doc: "https://1drv.ms/i/s!AkM3f8oqy30hgiIEawCELzMAVlt-?e=r0jIcD",
   },
+  {
+    id: 1,
+    img: "https://files.codingninjas.in/0000000000000723.jpg",
+    role: "Teaching Asistent Intern",
+    company: "Coding Ninjas",
+    date: "December 22 - March 2023",
+    desc: "• Taking doubt sessions • Debugging codes • Helping students in their assignments & various projects.",
+    skills: ["Java", "Dsa", "Debugging Codes"],
+    docImg: "https://i.postimg.cc/15HxBJTx/Experience-Img.png",
+    doc: "https://1drv.ms/i/s!AkM3f8oqy30hgiIEawCELzMAVlt-?e=r0jIcD",
+  },
 ];
 
 export const education = [
