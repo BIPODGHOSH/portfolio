@@ -11,8 +11,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       <div className={styles.wrapper}>
         <div className={styles.title}>Projects</div>
         <div className={styles.desc}>
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects. Various type of web apps.
+          Here are some of my projects.
         </div>
         <div className={styles.toggleButtonGroup}>
           {toggle === "all" ? (

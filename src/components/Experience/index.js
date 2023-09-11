@@ -15,8 +15,8 @@ const Experience = () => {
       <div className={styles.wrapper}>
         <div className={styles.title}>Experience</div>
         <div className={styles.desc}>
-          My work experience as a software engineer and working on different
-          companies and projects.
+          My experience as a software engineer working on different projects and
+          a company.
         </div>
         <div className={styles.timelineSection}>
           <Timeline>
