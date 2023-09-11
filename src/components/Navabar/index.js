@@ -80,9 +80,17 @@ const Navbar = () => {
             Education
           </a>
 
-          <Link className={styles.MobileSocial} href={Bio.github}>
+          <a className={styles.MobileSocial} href={Bio.github} target="blank">
             Github
-          </Link>
+          </a>
+
+          <a className={styles.MobileSocial} href={Bio.linkedin} target="blank">
+            Linkedin
+          </a>
+
+          <a className={styles.MobileSocial} href={Bio.facebook} target="blank">
+            Facebook
+          </a>
         </div>
       )}
     </div>

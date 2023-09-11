@@ -247,15 +247,17 @@
   }
 }
 
-.MobileSocialContainer {
+/* .MobileSocialContainer {
   background-color: bisque;
   height: 50px;
   width: 50px;
-}
+} */
 
 .MobileSocial {
   padding: 10px 16px;
   background: var(--primary);
   color: white;
   width: max-content;
+  border-radius: 20px;
+  text-decoration: none;
 }
