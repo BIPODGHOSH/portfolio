@@ -17,10 +17,12 @@ const EducationCard = ({ education }) => {
           <div className={styles.date}>{education.date}</div>
         </div>
       </div>
-      <div className={styles.grade}>
-        <b>Grade: </b>
-        {education.grade}
-      </div>
+      {education.grade && (
+        <div className={styles.grade}>
+          <b>Grade: </b>
+          {education.grade}
+        </div>
+      )}
       <div className={styles.description}>
         <div className={styles.span}>{education.desc}</div>
       </div>

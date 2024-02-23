@@ -20,16 +20,7 @@ export const skills = [
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
+
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -43,6 +34,11 @@ export const skills = [
         name: "JavaScript",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
       },
       {
         name: "Bootstrap",
@@ -86,8 +82,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+        image: "https://logowik.com/content/uploads/images/git6963.jpg",
       },
       {
         name: "GitHub",
@@ -108,7 +103,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://logowik.com/content/uploads/images/postman-api-platform6643.logowik.com.webp",
       },
     ],
   },
@@ -141,7 +136,16 @@ export const experiences = [
 
 export const education = [
   {
-    id: 0,
+    id: 1,
+    img: "https://scontent.fccu5-1.fna.fbcdn.net/v/t1.6435-9/102461524_1415239665346527_2627193212096385859_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7a1959&_nc_ohc=9zPEOXpyrPwAX-pIWQI&_nc_ht=scontent.fccu5-1.fna&oh=00_AfDsvpU-0jzRvmfgAYnZ_YHDG0tbnbvrl6fUW-kAwyEImw&oe=66001C30",
+    school: "Coding Ninjas,Remote",
+    date: "August 2022",
+    grade: "",
+    desc: "I am doing now a course on Coding Ninjas in Full Stack Web Development.",
+    degree: "Full Stack Web Development",
+  },
+  {
+    id: 1,
     img: "https://brainwareuniversity.ac.in/images/bwu-og.jpg",
     school: "Brainware University, Kolkata",
     date: "April 2018 - Feb 2023",
@@ -150,7 +154,7 @@ export const education = [
     degree: "Bachelor of Computer Applications - BCA",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://school.banglarshiksha.gov.in/sms/templates/uploads/ws/19585/217302.jpg",
     school: "DHUBULIA DESHBANDHU HIGH SCHOOL",
     date: "Apr 2015 - Apr 2017",
@@ -159,7 +163,7 @@ export const education = [
     degree: "(XII), Arts with Computer",
   },
   {
-    id: 2,
+    id: 3,
     img: "https://school.banglarshiksha.gov.in/sms/templates/uploads/ws/19585/217302.jpg",
     school: "DHUBULIA DESHBANDHU HIGH SCHOOL",
     date: "Apr 2013 - Apr 2015",
@@ -172,6 +176,38 @@ export const education = [
 export const projects = [
   {
     id: 0,
+    title: "YouTube clone",
+    date: "February 2024 - February 2024",
+    description:
+      "The app kind of copy of YouTube.Here you can search containts and channels by name.you watch video ",
+    image: "https://i.postimg.cc/43CD0RGk/Screenshot-52.png",
+    tags: [
+      "React Js",
+      "Youtube v3 API",
+      "Material ui",
+      "Axios",
+      "react-icons",
+      "react-player",
+      "react-router-dom",
+    ],
+    category: "full stack",
+    github: "https://github.com/BIPODGHOSH/youtube_clone",
+    webapp: "https://bipod-youtube.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "Hotstar clone",
+    date: "January 2024",
+    description:
+      "User can watch movie and tv show from this web app,for watching any content user should be loged in",
+    image: "https://i.postimg.cc/Vk7frX76/Screenshot-53.png",
+    tags: ["React Js", "Firebase", "TypeScript", "Tailwind", "TMDB api"],
+    category: "front end",
+    github: "https://github.com/BIPODGHOSH/hotstar-clone",
+    webapp: "https://hotstarbipod.netlify.app/",
+  },
+  {
+    id: 2,
     title: "Coder Zones",
     date: "Augest 2023 - September 2023",
     description:
@@ -183,7 +219,7 @@ export const projects = [
     webapp: "https://coderzones.netlify.app",
   },
   {
-    id: 1,
+    id: 3,
     title: "Chat App",
     date: "Apr 2023 - May 2023",
     description:
@@ -193,18 +229,10 @@ export const projects = [
     category: "back end",
     github: "https://github.com/BIPODGHOSH/chat-app",
     webapp: "https://chatappbipod.netlify.app/",
-    // member: [
-    //   {
-    //     name: "Bipod Ghosh",
-    //     img: "",
-    //     github: "https://github.com/BIPODGHOSH",
-    //     linkedin: "https://www.linkedin.com/in/bipod-ghosh7",
-    //   },
-    // ],
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Imdb-Clone",
     date: "May 2023 - Jun 2023",
     description:
@@ -216,7 +244,7 @@ export const projects = [
     webapp: "https://bipodghosh.github.io/imdb-clone/",
   },
   {
-    id: 3,
+    id: 5,
     title: "StopWatch",
     date: "January 2023 - Jun 2023",
     description:
